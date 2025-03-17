@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: green !important;
+}
+#a{
+width: fit-content;
+
+}
+#b, #c,#d, #h,#e{
+    border: 1px solid black;
+    width: 50px;
+}
+.container{
+    display: flex;
+    width: 80vw;
+    margin: 100px auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+}
+img{
+    width: 200px;
+    height: 260px;
+}
+.nums{
+    display: flex;
+}
+h1{
+    font-size: 35px !important;
+}
+p{
+    font-size: 25px !important;
+}
+
